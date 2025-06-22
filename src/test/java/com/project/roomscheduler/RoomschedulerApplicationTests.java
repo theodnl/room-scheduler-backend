@@ -1,10 +1,10 @@
-package com.proxiad.proxiadspaces;
+package com.project.roomscheduler;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ProxiadspacesApplicationTests {
+class RoomschedulerApplicationTests {
 
 	@Test
 	void contextLoads() {
