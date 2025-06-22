@@ -1,0 +1,71 @@
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Log Files
+*.log
+logs/
+target/*.log
+
+# Maven temporary files
+/target/ # Exclut complètement le répertoire 'target' et tout son contenu.
+         # C'est la ligne la plus importante pour Maven.
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar # Exclut le wrapper Maven lui-même, il est souvent préférable de le versionner pour la cohérence des builds.
+                               # Si vous voulez le versionner, supprimez cette ligne.
+
+# IDE specific files
+# STS / Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/ # Exclut le dossier .settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/ # Exclut le dossier .idea et tout son contenu
+*.iws
+*.iml
+*.ipr
+*.ipr.bak
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/ # Exclut le dossier 'build' généré par NetBeans/Gradle (si utilisé)
+
+# VS Code
+.vscode/ # Exclut le dossier .vscode.
+         # Attention: Si vous avez des configurations spécifiques à versionner (par ex. launch.json),
+         # vous pourriez vouloir inclure .vscode/launch.json et exclure le reste.
+
+# OS generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+desktop.ini # Windows
+
+# Temporary files
+*.bak
+*.tmp
+*.temp
+*.swp # Vim swap files
